@@ -43,21 +43,25 @@ let isDragging = false;
 divider.addEventListener("mousedown", (e) => {
   isDragging = true;
   document.body.style.cursor = "ew-resize";
+  document.addEventListener("mousemove", onMouseMove);
+  document.addEventListener("mouseup", onMouseUp);
 });
 
-document.addEventListener("mousemove", (e) => {
-  if (isDragging) {
-    const containerRect = document.querySelector(".container").getBoundingClientRect();
-    const newWidth = e.clientX - containerRect.left;
+function onMouseMove(e) {
+  if (!isDragging) return;
 
-    // Set minimum and maximum widths for the sidebar
-    if (newWidth > 100 && newWidth < containerRect.width - 100) {
-      sidebar.style.width = `${newWidth}px`;
-    }
+  const containerRect = document.querySelector(".container").getBoundingClientRect();
+  const newWidth = e.clientX - containerRect.left;
+
+  // Set minimum and maximum widths for the sidebar
+  if (newWidth > 100 && newWidth < containerRect.width - 100) {
+    sidebar.style.width = `${newWidth}px`;
   }
-});
+}
 
-document.addEventListener("mouseup", () => {
+function onMouseUp() {
   isDragging = false;
   document.body.style.cursor = "default";
-});
+  document.removeEventListener("mousemove", onMouseMove);
+  document.removeEventListener("mouseup", onMouseUp);
+}

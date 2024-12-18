@@ -32,3 +32,32 @@ function buildFileTree(structure, parentElement) {
 // Initialize the file tree
 const fileTreeElement = document.getElementById("file-tree");
 buildFileTree(folderStructure, fileTreeElement);
+
+// Handle the draggable divider
+const divider = document.getElementById("divider");
+const sidebar = document.getElementById("sidebar");
+const content = document.getElementById("content");
+
+let isDragging = false;
+
+divider.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  document.body.style.cursor = "ew-resize";
+});
+
+document.addEventListener("mousemove", (e) => {
+  if (isDragging) {
+    const containerRect = document.querySelector(".container").getBoundingClientRect();
+    const newWidth = e.clientX - containerRect.left;
+
+    // Set minimum and maximum widths for the sidebar
+    if (newWidth > 100 && newWidth < containerRect.width - 100) {
+      sidebar.style.width = `${newWidth}px`;
+    }
+  }
+});
+
+document.addEventListener("mouseup", () => {
+  isDragging = false;
+  document.body.style.cursor = "default";
+});

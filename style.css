@@ -38,6 +38,18 @@ body {
   width: 5px;
   background-color: #ccc;
   cursor: ew-resize;
+  position: relative;
+}
+
+#divider .handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #666;
+  user-select: none;
+  cursor: ew-resize;
 }
 
 #content {

@@ -36,7 +36,7 @@ body {
 
 /* Divider Styling */
 #divider {
-  width: 8px; /* Thicker black line */
+  width: 12px; /* Thicker black line */
   background-color: black; /* Black background */
   position: relative;
   cursor: ew-resize; /* Show drag cursor */
@@ -46,10 +46,10 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%; /* Center the line horizontally */
-  width: 2px; /* Thin gray line */
-  background-color: gray;
-  transform: translateX(-50%); /* Center the gray line perfectly */
+  left: 50%; /* Center the handle horizontally */
+  width: 4px; /* Thicker gray line */
+  background-color: gray; /* Solid gray line */
+  transform: translateX(-50%); /* Perfectly center the gray line */
 }
 
 #content {

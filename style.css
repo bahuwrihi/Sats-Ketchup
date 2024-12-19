@@ -34,22 +34,22 @@ body {
   background-color: #e1e4e8;
 }
 
+/* Divider Styling */
 #divider {
-  width: 5px;
-  background-color: #ccc;
-  cursor: ew-resize;
+  width: 8px; /* Thicker black line */
+  background-color: black; /* Black background */
   position: relative;
+  cursor: ew-resize; /* Show drag cursor */
 }
 
 #divider .handle {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  color: #666;
-  user-select: none;
-  cursor: ew-resize;
+  top: 0;
+  bottom: 0;
+  left: 50%; /* Center the line horizontally */
+  width: 2px; /* Thin gray line */
+  background-color: gray;
+  transform: translateX(-50%); /* Center the gray line perfectly */
 }
 
 #content {

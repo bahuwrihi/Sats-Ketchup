@@ -28,10 +28,10 @@ body {
 }
 
 .repo-icon img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  margin-right: 10px;
+  width: 32px; /* Width of the logo */
+  height: 32px; /* Height of the logo */
+  border-radius: 50%; /* Makes the logo circular */
+  object-fit: cover; /* Ensures the logo scales properly */
 }
 
 .repo-details h1 {

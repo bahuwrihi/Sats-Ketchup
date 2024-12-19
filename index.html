@@ -8,14 +8,61 @@
 </head>
 <body>
   <div class="container">
-    <div id="sidebar">
-      <ul id="file-tree">
-        <!-- Folder structure will be injected here -->
-      </ul>
+    <!-- Sidebar with GitHub-style layout -->
+    <div id="sidebar" class="github-sidebar">
+      <!-- Header -->
+      <div class="repo-header">
+        <div class="repo-icon">
+          <!-- Replace with your logo -->
+          <img src="your-logo.png" alt="Logo" />
+        </div>
+        <div class="repo-details">
+          <h1>Sats-Ketchup</h1>
+          <span class="repo-status">Public</span>
+        </div>
+      </div>
+
+      <!-- Branch Info -->
+      <div class="branch-info">
+        <span class="branch-label">main</span>
+        <span class="branch-details">1 Branch · 0 Tags</span>
+      </div>
+
+      <!-- Files Section -->
+      <div class="file-box">
+        <div class="file-header">
+          <span class="author">bahuwrihi</span>
+          <span class="change-summary">Update index.html</span>
+          <span class="commit-id">11195a8</span>
+          <span class="timestamp">1 minute ago</span>
+        </div>
+        <ul class="file-list">
+          <li>
+            <span class="file-name">README.md</span>
+            <span class="file-info">Initial commit</span>
+          </li>
+          <li>
+            <span class="file-name">index.html</span>
+            <span class="file-info">Update index.html</span>
+          </li>
+          <li>
+            <span class="file-name">script.js</span>
+            <span class="file-info">Update script.js</span>
+          </li>
+          <li>
+            <span class="file-name">style.css</span>
+            <span class="file-info">Update style.css</span>
+          </li>
+        </ul>
+      </div>
     </div>
-    <<div id="divider">
-  <div class="handle"></div> <!-- Gray handle -->
-</div>
+
+    <!-- Divider for resizing -->
+    <div id="divider">
+      <div class="handle"></div> <!-- Gray handle -->
+    </div>
+
+    <!-- Content Section -->
     <div id="content">
       <h1>Welcome!</h1>
       <p>Select a file from the sidebar to view its content.</p>

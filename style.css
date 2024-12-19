@@ -36,7 +36,7 @@ body {
 
 /* Divider Styling */
 #divider {
-  width: 60px; /* Thicker black line */
+  width: 20px; /* Thicker black line */
   background-color: black; /* Black background */
   position: relative;
   cursor: ew-resize; /* Show drag cursor */

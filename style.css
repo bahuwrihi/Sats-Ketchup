@@ -1,3 +1,4 @@
+/* General Styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,6 +12,7 @@ body {
   height: 100%;
 }
 
+/* Sidebar */
 #sidebar {
   width: 25%; /* Default width */
   background-color: #f6f8fa;
@@ -19,19 +21,97 @@ body {
   padding: 1em;
 }
 
-#sidebar ul {
-  list-style-type: none;
-  padding: 0;
+/* GitHub Sidebar Elements */
+.github-sidebar .repo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-#sidebar li {
-  padding: 0.5em;
-  cursor: pointer;
+.github-sidebar .repo-icon img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.github-sidebar .repo-details h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
   color: #0366d6;
 }
 
-#sidebar li:hover {
-  background-color: #e1e4e8;
+.github-sidebar .repo-details .repo-status {
+  font-size: 14px;
+  color: #586069;
+}
+
+.github-sidebar .branch-info {
+  background-color: #f1f8ff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #586069;
+}
+
+.github-sidebar .branch-info .branch-label {
+  font-weight: bold;
+  color: #0366d6;
+  margin-right: 5px;
+}
+
+.github-sidebar .file-box {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.github-sidebar .file-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f6f8fa;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.github-sidebar .file-header span {
+  font-size: 14px;
+  color: #586069;
+}
+
+.github-sidebar .file-header .author {
+  font-weight: bold;
+  color: #0366d6;
+}
+
+.github-sidebar .file-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.github-sidebar .file-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #e1e4e8;
+}
+
+.github-sidebar .file-list li:first-child {
+  border-top: none;
+}
+
+.github-sidebar .file-name {
+  color: #0366d6;
+  font-weight: bold;
+}
+
+.github-sidebar .file-info {
+  color: #586069;
 }
 
 /* Divider Styling */
@@ -53,8 +133,24 @@ body {
   border-radius: 2px; /* Optional: rounded edges */
 }
 
+/* Content Section */
 #content {
   flex-grow: 1;
   padding: 2em;
   overflow-y: auto;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar li {
+  padding: 0.5em;
+  cursor: pointer;
+  color: #0366d6;
+}
+
+#sidebar li:hover {
+  background-color: #e1e4e8;
 }

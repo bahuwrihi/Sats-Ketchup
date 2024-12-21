@@ -1,153 +1,33 @@
-/* General Styling */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  display: flex;
-  height: 100vh;
+// Handle the draggable divider
+const divider = document.getElementById("divider");
+const sidebar = document.getElementById("sidebar");
+const content = document.getElementById("content");
+
+let isDragging = false;
+
+divider.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  document.body.style.cursor = "ew-resize";
+  document.addEventListener("mousemove", onMouseMove);
+  document.addEventListener("mouseup", onMouseUp);
+});
+
+function onMouseMove(e) {
+  if (!isDragging) return;
+
+  const containerRect = document.querySelector(".container").getBoundingClientRect();
+  const newWidth = e.clientX - containerRect.left;
+
+  // Set minimum and maximum widths for the sidebar
+  if (newWidth > 150 && newWidth < containerRect.width - 150) {
+    sidebar.style.width = ${newWidth}px;
+  }
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  height: 100%;
+function onMouseUp() {
+  isDragging = false;
+  document.body.style.cursor = "default";
+  document.removeEventListener("mousemove", onMouseMove);
+  document.removeEventListener("mouseup", onMouseUp);
 }
-
-/* Sidebar Styling */
-.github-sidebar {
-  width: 25%;
-  background-color: white;
-  border-right: 1px solid #e1e4e8;
-  overflow-y: auto;
-  padding: 20px;
-}
-
-/* Repository Header */
-.repo-header {
-  display: flex;
-  justify-content: center; /* Center the entire group horizontally */
-  align-items: flex-start; /* Keep items near the top */
-  padding-top: 0; /* Ensure no extra top padding */
-  margin-bottom: 20px; /* Add spacing below the group */
-}
-
-.repo-content {
-  display: flex;
-  align-items: center; /* Center logo and text vertically */
-  gap: 10px; /* Space between logo and text */
-}
-
-.repo-icon img {
-  width: 144px; /* Logo 3x larger */
-  height: 144px;
-  object-fit: contain;
-}
-
-.repo-details h1 {
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
-  color: #0366d6;
-}
-
-.repo-details .repo-status {
-  font-size: 14px;
-  color: #586069;
-  margin-top: 5px;
-}
-
-/* Branch Info */
-.branch-info {
-  background-color: #f1f8ff;
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  padding: 10px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #586069;
-}
-
-.branch-label {
-  font-weight: bold;
-  color: #0366d6;
-  margin-right: 5px;
-}
-
-/* File Section */
-.file-box {
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  background-color: white;
-}
-
-.file-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #f6f8fa;
-  border-bottom: 1px solid #e1e4e8;
-}
-
-.file-header span {
-  font-size: 14px;
-  color: #586069;
-}
-
-.file-header .author {
-  font-weight: bold;
-  color: #0366d6;
-}
-
-.file-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.file-list li {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  border-top: 1px solid #e1e4e8;
-}
-
-.file-list li:first-child {
-  border-top: none;
-}
-
-.file-name {
-  color: #0366d6;
-  font-weight: bold;
-}
-
-.file-info {
-  color: #586069;
-}
-
-/* Divider Styling */
-#divider {
-  width: 12px;
-  background-color: black;
-  position: relative;
-  cursor: ew-resize;
-}
-
-#divider .handle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 40px; /* Adjust handle length */
-  width: 4px;
-  background-color: gray;
-  border-radius: 2px;
-}
-
-/* Content Area */
-#content {
-  flex-grow: 1;
-  padding: 2em;
-  overflow-y: auto;
-}
-
 

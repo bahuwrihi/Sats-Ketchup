@@ -1,55 +1,37 @@
-// Handle the draggable divider
-const divider = document.getElementById("divider");
-const sidebar = document.getElementById("sidebar");
-const content = document.getElementById("content");
-
-let isDragging = false;
-
-divider.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  document.body.style.cursor = "ew-resize";
-  document.addEventListener("mousemove", onMouseMove);
-  document.addEventListener("mouseup", onMouseUp);
-});
-
-function onMouseMove(e) {
-  if (!isDragging) return;
-
-  const containerRect = document.querySelector(".container").getBoundingClientRect();
-  const newWidth = e.clientX - containerRect.left;
-
-  // Set minimum and maximum widths for the sidebar
-  if (newWidth > 150 && newWidth < containerRect.width - 150) {
-    sidebar.style.width = `${newWidth}px`;
-  }
-}
-
-function onMouseUp() {
-  isDragging = false;
-  document.body.style.cursor = "default";
-  document.removeEventListener("mousemove", onMouseMove);
-  document.removeEventListener("mouseup", onMouseUp);
-}
-
-// Handle file listing and dynamic content loading
 document.addEventListener("DOMContentLoaded", function () {
-  // List of files in the directory (manually added for now)
-  const files = ["README.md", "index.html"]; // Add more filenames as needed
-
   const fileList = document.getElementById("file-list");
   const fileContent = document.getElementById("file-content");
 
-  // Populate the sidebar with file links
-  files.forEach((file) => {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.textContent = file;
-    a.href = "#"; // Prevent default navigation
-    a.className = "file-name";
-    a.dataset.file = file; // Store the file name
-    li.appendChild(a);
-    fileList.appendChild(li);
-  });
+  // Your GitHub repository details
+  const owner = "bahuwrihi"; // GitHub username
+  const repo = "Sats-Ketchup"; // Repository name
+  const branch = "main"; // Branch name
+
+  // Fetch the file list from GitHub API
+  fetch(`https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Failed to fetch file list from GitHub API.");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      const files = data.tree.filter((item) => item.type === "blob"); // Filter only files
+      files.forEach((file) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.textContent = file.path;
+        a.href = "#";
+        a.className = "file-name";
+        a.dataset.file = file.path; // Store the file path
+        li.appendChild(a);
+        fileList.appendChild(li);
+      });
+    })
+    .catch((error) => {
+      console.error(error);
+      fileContent.innerHTML = `<p>Error: Could not load file list.</p>`;
+    });
 
   // Handle file click to load content
   fileList.addEventListener("click", (event) => {
@@ -57,23 +39,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const target = event.target;
     if (target.tagName === "A") {
-      const fileName = target.dataset.file;
+      const filePath = target.dataset.file;
 
-      // Fetch the file content dynamically
-      fetch(fileName + "?t=" + new Date().getTime()) // Cache-busting query parameter
+      // Fetch the file content dynamically from the raw GitHub URL
+      const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${filePath}`;
+      fetch(rawUrl)
         .then((response) => {
-          if (response.ok) {
-            return response.text();
-          } else {
-            throw new Error(`Error loading file: ${fileName}`);
+          if (!response.ok) {
+            throw new Error(`Error loading file: ${filePath}`);
           }
+          return response.text();
         })
         .then((content) => {
-          // Display content in the right-hand content area
-          fileContent.innerHTML = `<pre>${content}</pre>`;
+          fileContent.innerHTML = `<pre>${content}</pre>`; // Display content as preformatted text
         })
         .catch((error) => {
-          fileContent.innerHTML = `<p>${error.message}</p>`;
+          console.error(error);
+          fileContent.innerHTML = `<p>Error: Could not load file content.</p>`;
         });
     }
   });

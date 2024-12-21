@@ -1,147 +1,86 @@
-/* General Styling */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  display: flex;
-  height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 .container {
   display: flex;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
-/* Sidebar Styling */
-.github-sidebar {
-  width: 25%; /* Default width */
-  background-color: white;
+#sidebar {
+  width: 300px;
   border-right: 1px solid #e1e4e8;
-  overflow-y: auto;
-  padding: 20px;
 }
 
 .repo-header {
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  flex-direction: column; /* Stack logo and text */
-  height: 100%; /* Make the header take full height of the sidebar */
-  text-align: center;
-  margin-bottom: 0; /* Remove extra bottom margin */
+  align-items: center; /* Vertically align logo and text */
+  justify-content: center; /* Horizontally center the entire line */
+  margin: 10px 0; /* Minimal distance from top and bottom */
 }
 
 .repo-icon img {
-  width: 96px; /* 3x larger */
-  height: 96px; /* 3x larger */
-  border-radius: 50%; /* Keep the logo circular */
-  object-fit: cover; /* Ensure the image scales properly */
-  margin-bottom: 15px; /* Add spacing between logo and text */
+  height: 60px; /* Logo size */
+  margin-right: 10px; /* Space between logo and text */
 }
 
 .repo-details h1 {
+  font-size: 24px;
   margin: 0;
-  font-size: 24px; /* Slightly larger font for better proportion */
-  font-weight: bold;
-  color: #0366d6;
-  text-align: center;
+  color: #0070f3; /* Blue color for the text */
 }
 
-
-.repo-details .repo-status {
+.repo-status {
   font-size: 14px;
-  color: #586069;
+  color: gray;
 }
 
 .branch-info {
-  background-color: #f1f8ff;
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
   padding: 10px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #586069;
+  border-bottom: 1px solid #e1e4e8;
 }
 
 .branch-label {
   font-weight: bold;
   color: #0366d6;
-  margin-right: 5px;
 }
 
 .file-box {
-  border: 1px solid #e1e4e8;
-  border-radius: 6px;
-  background-color: white;
+  padding: 10px;
 }
 
 .file-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #f6f8fa;
-  border-bottom: 1px solid #e1e4e8;
-}
-
-.file-header span {
-  font-size: 14px;
-  color: #586069;
-}
-
-.file-header .author {
-  font-weight: bold;
-  color: #0366d6;
+  margin-bottom: 5px;
 }
 
 .file-list {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .file-list li {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  border-top: 1px solid #e1e4e8;
+  padding: 5px 0;
+  border-bottom: 1px solid #e1e4e8;
 }
 
-.file-list li:first-child {
-  border-top: none;
-}
-
-.file-name {
-  color: #0366d6;
-  font-weight: bold;
-}
-
-.file-info {
-  color: #586069;
-}
-
-/* Divider Styling */
 #divider {
-  width: 12px;
-  background-color: black;
-  position: relative;
+  width: 5px;
+  background-color: #f6f8fa;
   cursor: ew-resize;
 }
 
-#divider .handle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 40px; /* Adjust handle length */
-  width: 4px;
-  background-color: gray;
-  border-radius: 2px;
-}
-
-/* Content Area */
 #content {
   flex-grow: 1;
-  padding: 2em;
-  overflow-y: auto;
+  padding: 20px;
 }
+
+#content h1 {
+  margin-top: 0;
+}
+

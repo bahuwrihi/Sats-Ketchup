@@ -63,19 +63,6 @@
   </div>
 
   <script src="script.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const logo = document.getElementById('logo-image');
-      if (logo) {
-        console.log('Logo image loaded:', logo.src);
-        logo.onerror = function() {
-          console.error('Failed to load logo image:', logo.src);
-          logo.style.display = 'none'; // Hide broken image
-        };
-      } else {
-        console.error('Logo image element not found');
-      }
-    });
-  </script>
 </body>
 </html>
+

@@ -24,16 +24,19 @@ body {
 /* Repository Header */
 .repo-header {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
-  text-align: center;
-  margin-bottom: 20px;
-  padding-top: 0; /* Remove top padding to move it to the very top */
+  justify-content: flex-start; /* Align the content to the left */
+  align-items: center; /* Vertically align logo and text */
+}
+
+.repo-content {
+  display: flex;
+  align-items: center; /* Align logo and text vertically */
+  gap: 10px; /* Add space between the logo and text */
 }
 
 .repo-icon img {
-  width: 144px; /* 3x original size */
-  height: 144px; /* 3x original size */
+  width: 144px; /* Logo 3x larger */
+  height: 144px;
   object-fit: contain;
 }
 
@@ -143,3 +146,4 @@ body {
   padding: 2em;
   overflow-y: auto;
 }
+

@@ -23,23 +23,30 @@ body {
 
 .repo-header {
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  flex-direction: column; /* Stack logo and text */
+  height: 100%; /* Make the header take full height of the sidebar */
+  text-align: center;
+  margin-bottom: 0; /* Remove extra bottom margin */
 }
 
 .repo-icon img {
-  width: 32px; /* Width of the logo */
-  height: 32px; /* Height of the logo */
-  border-radius: 50%; /* Makes the logo circular */
-  object-fit: cover; /* Ensures the logo scales properly */
+  width: 96px; /* 3x larger */
+  height: 96px; /* 3x larger */
+  border-radius: 50%; /* Keep the logo circular */
+  object-fit: cover; /* Ensure the image scales properly */
+  margin-bottom: 15px; /* Add spacing between logo and text */
 }
 
 .repo-details h1 {
   margin: 0;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px; /* Slightly larger font for better proportion */
+  font-weight: bold;
   color: #0366d6;
+  text-align: center;
 }
+
 
 .repo-details .repo-status {
   font-size: 14px;

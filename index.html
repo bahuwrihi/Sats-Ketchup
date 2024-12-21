@@ -13,8 +13,7 @@
       <!-- Repository Header -->
       <header class="repo-header">
         <div class="repo-icon">
-          <!-- Replace with your logo -->
-          <img src="files/Sats_Logo_small.png" alt="Sats Ketchup Logo" id="logo-image" />
+          <img src="https://raw.githubusercontent.com/bahuwrihi/Sats-Ketchup/cf086d30d0f1331b62df10ad3e78fafd88eb6634/_Files/Sats_Logo_small.png" alt="Sats Ketchup Logo">
         </div>
         <div class="repo-details">
           <h1>Sats-Ketchup</h1>
@@ -62,20 +61,5 @@
   </div>
 
   <script src="script.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const logo = document.getElementById('logo-image');
-      if (logo) {
-        console.log('Logo image loaded:', logo.src);
-        logo.onerror = function() {
-          console.error('Failed to load logo image:', logo.src);
-          logo.style.display = 'none'; // Hide broken image
-        };
-      } else {
-        console.error('Logo image element not found');
-      }
-    });
-  </script>
 </body>
 </html>
-

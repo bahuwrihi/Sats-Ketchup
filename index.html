@@ -11,25 +11,25 @@
     <!-- Sidebar with GitHub-like layout -->
     <div id="sidebar" class="github-sidebar">
       <!-- Repository Header -->
-      <div class="repo-header">
+      <header class="repo-header">
         <div class="repo-icon">
           <!-- Replace with your logo -->
-          <img src="_Files/Sats_Logo_small.png" alt="Logo" id="logo-image" />
+          <img src="_Files/Sats_Logo_small.png" alt="Sats Ketchup Logo" id="logo-image" />
         </div>
         <div class="repo-details">
           <h1>Sats-Ketchup</h1>
           <span class="repo-status">Public</span>
         </div>
-      </div>
+      </header>
 
       <!-- Branch Info -->
-      <div class="branch-info">
+      <section class="branch-info">
         <span class="branch-label">main</span>
         <span class="branch-details">1 Branch · 0 Tags</span>
-      </div>
+      </section>
 
       <!-- File Section -->
-      <div class="file-box">
+      <section class="file-box">
         <div class="file-header">
           <span class="author">bahuwrihi</span>
           <span class="change-summary">Update index.html</span>
@@ -46,7 +46,7 @@
             <span class="file-info">Update index.html</span>
           </li>
         </ul>
-      </div>
+      </section>
     </div>
 
     <!-- Divider for resizing -->
@@ -55,10 +55,10 @@
     </div>
 
     <!-- Content Area -->
-    <div id="content">
+    <main id="content">
       <h1>Welcome!</h1>
       <p>Select a file from the sidebar to view its content.</p>
-    </div>
+    </main>
   </div>
 
   <script src="script.js"></script>
@@ -69,9 +69,10 @@
         console.log('Logo image loaded:', logo.src);
         logo.onerror = function() {
           console.error('Failed to load logo image:', logo.src);
+          logo.style.display = 'none'; // Hide broken image
         };
       } else {
-        console.error('Logo image not found');
+        console.error('Logo image element not found');
       }
     });
   </script>

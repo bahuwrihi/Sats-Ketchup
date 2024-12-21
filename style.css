@@ -13,16 +13,17 @@ body {
   border-right: 1px solid #e1e4e8;
 }
 
+/* Center logo and text */
 .repo-header {
   display: flex;
-  align-items: center; /* Vertically align logo and text */
-  justify-content: center; /* Horizontally center the entire line */
-  margin: 10px 0; /* Minimal distance from top and bottom */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center the line horizontally */
+  margin: 10px 0; /* Minimal space at the top */
 }
 
 .repo-icon img {
-  height: 60px; /* Logo size */
-  margin-right: 10px; /* Space between logo and text */
+  height: 60px; /* Keep logo size consistent */
+  margin-right: 10px; /* Add space between logo and text */
 }
 
 .repo-details h1 {
@@ -69,15 +70,24 @@ body {
   border-bottom: 1px solid #e1e4e8;
 }
 
+/* Divider styling */
 #divider {
   width: 5px;
   background-color: #f6f8fa;
   cursor: ew-resize;
 }
 
+#divider .handle {
+  width: 100%;
+  height: 100%;
+  background-color: gray; /* Add a visible handle */
+}
+
 #content {
   flex-grow: 1;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 #content h1 {

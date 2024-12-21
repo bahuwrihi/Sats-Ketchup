@@ -1,3 +1,37 @@
+// Handle the draggable divider
+const divider = document.getElementById("divider");
+const sidebar = document.getElementById("sidebar");
+const content = document.getElementById("content");
+
+let isDragging = false;
+
+divider.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  document.body.style.cursor = "ew-resize";
+  document.addEventListener("mousemove", onMouseMove);
+  document.addEventListener("mouseup", onMouseUp);
+});
+
+function onMouseMove(e) {
+  if (!isDragging) return;
+
+  const containerRect = document.querySelector(".container").getBoundingClientRect();
+  const newWidth = e.clientX - containerRect.left;
+
+  // Set minimum and maximum widths for the sidebar
+  if (newWidth > 150 && newWidth < containerRect.width - 150) {
+    sidebar.style.width = `${newWidth}px`;
+  }
+}
+
+function onMouseUp() {
+  isDragging = false;
+  document.body.style.cursor = "default";
+  document.removeEventListener("mousemove", onMouseMove);
+  document.removeEventListener("mouseup", onMouseUp);
+}
+
+// Handle file listing and dynamic content loading
 document.addEventListener("DOMContentLoaded", function () {
   const fileList = document.getElementById("file-list");
   const fileContent = document.getElementById("file-content");
@@ -19,12 +53,20 @@ document.addEventListener("DOMContentLoaded", function () {
       const files = data.tree.filter((item) => item.type === "blob"); // Filter only files
       files.forEach((file) => {
         const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.textContent = file.path;
-        a.href = "#";
-        a.className = "file-name";
-        a.dataset.file = file.path; // Store the file path
-        li.appendChild(a);
+
+        // File name
+        const fileName = document.createElement("span");
+        fileName.className = "file-name";
+        fileName.textContent = file.path;
+
+        // Placeholder details for now
+        const fileInfo = document.createElement("span");
+        fileInfo.className = "file-info";
+        fileInfo.textContent = "Last updated by Author";
+
+        li.appendChild(fileName);
+        li.appendChild(fileInfo);
+        li.dataset.file = file.path;
         fileList.appendChild(li);
       });
     })
@@ -37,8 +79,8 @@ document.addEventListener("DOMContentLoaded", function () {
   fileList.addEventListener("click", (event) => {
     event.preventDefault();
 
-    const target = event.target;
-    if (target.tagName === "A") {
+    const target = event.target.closest("li");
+    if (target) {
       const filePath = target.dataset.file;
 
       // Fetch the file content dynamically from the raw GitHub URL

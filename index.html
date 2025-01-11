@@ -3,65 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub-like Website</title>
+  <title>Sats-Ketchup</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Sidebar with GitHub-like layout -->
-    <div id="sidebar" class="github-sidebar">
-      <!-- Repository Header -->
-      <header class="repo-header">
-        <div class="repo-content">
-          <div class="repo-icon">
-            <img src="files/Sats_Logo_small.png" alt="Sats Ketchup Logo" id="logo-image" />
-          </div>
-          <div class="repo-details">
-            <h1>Sats-Ketchup</h1>
-            <span class="repo-status">Public</span>
-          </div>
-        </div>
-      </header>
-
-      <!-- Branch Info -->
-      <section class="branch-info">
-        <span class="branch-label">main</span>
-        <span class="branch-details">1 Branch · 0 Tags</span>
-      </section>
-
-      <!-- File Section -->
-      <section class="file-box">
-        <div class="file-header">
-          <span class="author">bahuwrihi</span>
-          <span class="change-summary">Update index.html</span>
-          <span class="commit-id">11195a8</span>
-          <span class="timestamp">1 minute ago</span>
-        </div>
-        <ul class="file-list">
-          <li>
-            <span class="file-name">README.md</span>
-            <span class="file-info">Initial commit</span>
-          </li>
-          <li>
-            <span class="file-name">index.html</span>
-            <span class="file-info">Update index.html</span>
-          </li>
-        </ul>
-      </section>
+  <div id="container">
+    <div id="sidebar">
+      <div id="repo-header">
+        <img src="files/Sats_Logo_small.png" alt="Logo" id="repo-logo">
+        <span id="repo-name">Sats-Ketchup</span>
+      </div>
+      <ul id="file-list">
+        <!-- Dynamically populated -->
+      </ul>
     </div>
-
-    <!-- Divider for resizing -->
-    <div id="divider">
-      <div class="handle"></div> <!-- Gray handle -->
+    <div id="resizer"></div>
+    <div id="content">
+      <div id="file-content">
+        <!-- Dynamically loaded content -->
+        <h2>Welcome</h2>
+        <p>This is the initial content loaded from <code>welcome.md</code>.</p>
+      </div>
     </div>
-
-    <!-- Content Area -->
-    <main id="content">
-      <h1>Welcome!</h1>
-      <p>Select a file from the sidebar to view its content.</p>
-    </main>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
+

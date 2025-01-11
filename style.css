@@ -1,33 +1,73 @@
-// Handle the draggable divider
-const divider = document.getElementById("divider");
-const sidebar = document.getElementById("sidebar");
-const content = document.getElementById("content");
-
-let isDragging = false;
-
-divider.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  document.body.style.cursor = "ew-resize";
-  document.addEventListener("mousemove", onMouseMove);
-  document.addEventListener("mouseup", onMouseUp);
-});
-
-function onMouseMove(e) {
-  if (!isDragging) return;
-
-  const containerRect = document.querySelector(".container").getBoundingClientRect();
-  const newWidth = e.clientX - containerRect.left;
-
-  // Set minimum and maximum widths for the sidebar
-  if (newWidth > 150 && newWidth < containerRect.width - 150) {
-    sidebar.style.width = ${newWidth}px;
-  }
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
 }
 
-function onMouseUp() {
-  isDragging = false;
-  document.body.style.cursor = "default";
-  document.removeEventListener("mousemove", onMouseMove);
-  document.removeEventListener("mouseup", onMouseUp);
+#container {
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 300px;
+  background: #f6f8fa;
+  border-right: 1px solid #d0d7de;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#repo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#repo-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#repo-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#file-list li {
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #0366d6;
+}
+
+#file-list li:hover {
+  background: #e1e4e8;
+}
+
+#resizer {
+  width: 5px;
+  background: #d0d7de;
+  cursor: ew-resize;
+  position: relative;
+}
+
+#content {
+  flex-grow: 1;
+  background: #ffffff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#file-content {
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 

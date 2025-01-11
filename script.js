@@ -1,3 +1,4 @@
+// Update with your repo details
 const repoUrl = "https://api.github.com/repos/bahuwrihi/Sats-Ketchup/contents";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -5,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const content = document.getElementById("content");
   const resizer = document.getElementById("resizer");
 
-  // Handle resizing
+  // Handle Resizing
   let isResizing = false;
 
   resizer.addEventListener("mousedown", (e) => {
@@ -24,16 +25,20 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.style.cursor = "default";
   });
 
-  // Fetch GitHub repo files
+  // Fetch GitHub Files
   const fetchGitHubFiles = async () => {
     try {
       const response = await fetch(repoUrl);
+      if (!response.ok) throw new Error("Failed to fetch repository contents");
       const files = await response.json();
       const fileList = document.getElementById("file-list");
 
       files.forEach((file) => {
         const listItem = document.createElement("li");
-        listItem.textContent = file.name;
+        listItem.innerHTML = `
+          <span>${file.name}</span>
+          <span>${file.type}</span>
+        `;
         listItem.addEventListener("click", () => loadFileContent(file.download_url));
         fileList.appendChild(listItem);
       });
@@ -42,10 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // Load file content
+  // Load File Content
   const loadFileContent = async (fileUrl) => {
     try {
       const response = await fetch(fileUrl);
+      if (!response.ok) throw new Error("Failed to fetch file content");
       const text = await response.text();
       const fileContent = document.getElementById("file-content");
       fileContent.textContent = text;
@@ -54,6 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // Initial load
+  // Initial Load
   fetchGitHubFiles();
 });

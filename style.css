@@ -1,60 +1,96 @@
-const repoUrl = "https://api.github.com/repos/bahuwrihi/Sats-Ketchup/contents";
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
 
-document.addEventListener("DOMContentLoaded", () => {
-  const sidebar = document.getElementById("sidebar");
-  const content = document.getElementById("content");
-  const resizer = document.getElementById("resizer");
+#container {
+  display: flex;
+  height: 100vh;
+}
 
-  // Handle resizing
-  let isResizing = false;
+/* Sidebar Design */
+#sidebar {
+  width: 350px;
+  background: #f6f8fa;
+  border-right: 1px solid #d0d7de;
+  overflow-y: auto;
+  padding: 10px;
+}
 
-  resizer.addEventListener("mousedown", (e) => {
-    isResizing = true;
-    document.body.style.cursor = "ew-resize";
-  });
+#repo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
-  document.addEventListener("mousemove", (e) => {
-    if (!isResizing) return;
-    const sidebarWidth = e.clientX;
-    sidebar.style.width = `${sidebarWidth}px`;
-  });
+#repo-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
 
-  document.addEventListener("mouseup", () => {
-    isResizing = false;
-    document.body.style.cursor = "default";
-  });
+#repo-info h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
 
-  // Fetch GitHub repo files
-  const fetchGitHubFiles = async () => {
-    try {
-      const response = await fetch(repoUrl);
-      const files = await response.json();
-      const fileList = document.getElementById("file-list");
+.public-status {
+  color: #22863a;
+  font-size: 12px;
+  background: #e6ffed;
+  border: 1px solid #34d058;
+  border-radius: 3px;
+  padding: 2px 6px;
+}
 
-      files.forEach((file) => {
-        const listItem = document.createElement("li");
-        listItem.textContent = file.name;
-        listItem.addEventListener("click", () => loadFileContent(file.download_url));
-        fileList.appendChild(listItem);
-      });
-    } catch (error) {
-      console.error("Error fetching GitHub files:", error);
-    }
-  };
+hr {
+  border: none;
+  border-top: 1px solid #d0d7de;
+  margin: 10px 0;
+}
 
-  // Load file content
-  const loadFileContent = async (fileUrl) => {
-    try {
-      const response = await fetch(fileUrl);
-      const text = await response.text();
-      const fileContent = document.getElementById("file-content");
-      fileContent.textContent = text;
-    } catch (error) {
-      console.error("Error loading file content:", error);
-    }
-  };
+/* File List Design */
+#file-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+}
 
-  // Initial load
-  fetchGitHubFiles();
-});
+#file-list li {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: #0366d6;
+}
 
+#file-list li:hover {
+  background: #e1e4e8;
+}
+
+/* Divider */
+#resizer {
+  width: 5px;
+  background: #d0d7de;
+  cursor: ew-resize;
+  position: relative;
+}
+
+/* Content Area */
+#content {
+  flex-grow: 1;
+  background: #ffffff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#file-content {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

@@ -1,4 +1,4 @@
-const repoUrl = "https://api.github.com/repos/bahuwrihi/sats-ketchup";
+const repoUrl = "https://api.github.com/repos/bahuwrihi/Sats-Ketchup/contents";
 
 document.addEventListener("DOMContentLoaded", () => {
   const sidebar = document.getElementById("sidebar");
@@ -56,5 +56,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initial load
   fetchGitHubFiles();
-  loadFileContent(`${repoUrl}/welcome.md`);
 });

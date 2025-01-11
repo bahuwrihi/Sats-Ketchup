@@ -1,4 +1,4 @@
-const repoUrl = "https://api.github.com/repos/your-username/your-repo/contents";
+const repoUrl = "https://api.github.com/repos/bahuwrihi/sats-ketchup";
 
 document.addEventListener("DOMContentLoaded", () => {
   const sidebar = document.getElementById("sidebar");

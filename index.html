@@ -8,25 +8,30 @@
 </head>
 <body>
   <div id="container">
+    <!-- Sidebar -->
     <div id="sidebar">
       <div id="repo-header">
         <img src="files/Sats_Logo_small.png" alt="Logo" id="repo-logo">
-        <span id="repo-name">Sats-Ketchup</span>
+        <div id="repo-info">
+          <h1>Sats-Ketchup</h1>
+          <span class="public-status">Public</span>
+        </div>
       </div>
+      <hr />
       <ul id="file-list">
-        <!-- Dynamically populated -->
+        <!-- Dynamically populated with file structure -->
       </ul>
     </div>
+    <!-- Divider -->
     <div id="resizer"></div>
+    <!-- Content Area -->
     <div id="content">
       <div id="file-content">
-        <!-- Dynamically loaded content -->
         <h2>Welcome</h2>
-        <p>This is the initial content loaded from <code>welcome.md</code>.</p>
+        <p>Click a file to view its content here.</p>
       </div>
     </div>
   </div>
   <script src="script.js"></script>
 </body>
 </html>
-

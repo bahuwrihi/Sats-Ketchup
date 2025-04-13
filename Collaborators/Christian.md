@@ -18,6 +18,6 @@
   - Production, Labeling, and Bottling of Sats Ketchup
 
 - **Contract Type**:  
-  - Freelance Agreement [Redacted Contract here]
+  - Freelance Agreement [Full Contract is visible at Sats Ketchup Core]
 
 - **Note**:

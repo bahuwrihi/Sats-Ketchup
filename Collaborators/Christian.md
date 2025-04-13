@@ -1,18 +1,23 @@
 # Collaborator: Christian H.
 
-- **Timeframe**: August 2024 – Present (Ongoing)
+- **Location**:  
+  - Burgrieden, Baden-Württemberg, Germany
 
-- **About**: www.wilde-hilde.info/
+- **Timeframe**:  
+  - August 2024 – Present (Ongoing)
 
-- **Role**:
-- Sauce Expert Consulting
-- Owner and Operator of a European Production, Labeling, and Bottling Facility
-  
-- **Areas of Work**: 
-  - Recipe Development Consulting
+- **About**:  
+  - [www.wilde-hilde.info/](http://www.wilde-hilde.info/)
+
+- **Role**:  
+  - Sauce Expert Consulting  
+  - Owner and Operator of a German Production, Labeling, and Bottling Facility
+
+- **Areas of Work**:  
+  - Recipe Development Consulting  
   - Production, Labeling, and Bottling of Sats Ketchup
-    
-- **Contract**: Yes
-- **Contract Type**: Freelance Agreement [Redacted Contract here]
 
-- **Note**: 
+- **Contract Type**:  
+  - Freelance Agreement [Redacted Contract here]
+
+- **Note**:

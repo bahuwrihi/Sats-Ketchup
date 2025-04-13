@@ -4,7 +4,8 @@
 
 - **About**: www.wilde-hilde.info/
 
-- **Role**: Sauce Expert Consulting
+- **Role**: Sauce Expert Consulting  
+  <div style="margin-left: 40px;">European Production, Labeling and Bottling Facility</div>
   
 - **Areas of Work**: 
   - Recipe Development Consulting

@@ -19,6 +19,6 @@
   - Brand Positioning Workshop Facilitation  
 
 - **Contract Type**:  
-  - Donation [Receipt access for Sats Ketchup Core Collaborators (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
+  - Donation [Receipt is accessible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
 
 - **Note**:

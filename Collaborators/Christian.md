@@ -1,4 +1,4 @@
-# Collaborator: Christian H.
+# Collaborator: Christian 
 
 - **Location**:  
   - Burgrieden, Baden-Württemberg, Germany
@@ -18,6 +18,6 @@
   - Production, Labeling, and Bottling of Sats Ketchup
 
 - **Contract Type**:  
-  - Freelance Agreement [Full Contract for Sats Ketchup Core Collaborators (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
+  - Freelance Agreement [Full contract is accessible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
 
 - **Note**:

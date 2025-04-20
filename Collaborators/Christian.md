@@ -1,5 +1,8 @@
 # Collaborator: Christian 
 
+- **Company**:
+  - TROXXY Wilde Hilde e.K.
+
 - **Location**:  
   - Burgrieden, Baden-Württemberg, Germany
 
@@ -18,6 +21,6 @@
   - Production, Labeling, and Bottling of Sats Ketchup
 
 - **Contract Type**:  
-  - Freelance Agreement [Full contract is accessible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
+  - Freelance Agreement [Full Contract and Receipt in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Invoices%20%26%20Receipts/TROXXY%20Wilde%20Hilde.pdf)
 
-- **Note**:
+- **Notes**:

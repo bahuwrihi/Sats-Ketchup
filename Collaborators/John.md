@@ -1,19 +1,28 @@
-# Collaborator: John A.
+# Collaborator: John 
 
-- **Timeframe**: September 2024 – Present (Ongoing)
+- **Company**:
+  - Independent
 
-- **About**: https://jakinci.com/
+- **Location**:  
+  - Baltimore, USA
 
-- **Role**: Design
-  
-- **Areas of Work**: 
-  - Concept Development Support
+- **Timeframe**:  
+  - September 2024 – Present (Ongoing)
+
+- **About**:  
+  - [www.jakinci.com/](https://jakinci.com/)
+
+- **Role**:  
+  - Design and Strategic Support
+
+- **Areas of Work**:  
+  - Concept Development
   - Website Design & Development
   - Brand Identity Design
   - Bitcoin Payment Integration
   - Team Collaboration & Meeting Facilitation
-    
-- **Contract**: Yes
-- **Contract Type**: Freelance Agreement [Redacted Contract here]
 
-- **Note**: 
+- **Contract Type**:  
+  - Freelance Agreement [Contract accesible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Contract%20Files/Contract%20John.pdf)
+
+- **Notes**:

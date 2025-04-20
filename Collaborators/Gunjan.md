@@ -9,7 +9,7 @@
 - **Timeframe**:  
   - October 2024
 
-- **About**:  
+- **Links**:  
   - [Behance Portfolio](https://www.behance.net/CDCo)
 
 - **Role**:  
@@ -19,6 +19,7 @@
   - Brand Positioning Workshop Facilitation  
 
 - **Contract Type**:  
-  - Donation [Receipt is accessible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
+  - Donation; [Receipt is accessible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
 
-- **Note**:
+- **About**:
+  - Brand Positioning Workshop Facilitation  

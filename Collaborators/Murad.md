@@ -1,7 +1,8 @@
 # Collaborator: Murad
+---
 
-- **Company**:
-  -Independent Professional
+- **Company**:  
+  - Independent Professional
 
 - **Location**:  
   - India
@@ -10,13 +11,13 @@
   - January 2025 – Present (Ongoing)
 
 - **About**:  
-  - 
- 
+  - N/A
+
 - **Role**:  
   - Software Developer
- 
+
 - **Contract Type**:  
   - Upwork Contract
 
 - **Notes**:  
-  - 
+  - N/A

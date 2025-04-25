@@ -21,6 +21,6 @@
   - Production, Labeling, and Bottling of Sats Ketchup
 
 - **Contract Type**:  
-  - Freelance Agreement [Full Contract and Invoice is acesible in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Invoices%20%26%20Receipts/TROXXY%20Wilde%20Hilde.pdf)
+  - Freelance Agreement [Full contract and invoice in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Invoices%20%26%20Receipts/TROXXY%20Wilde%20Hilde.pdf)
 
 - **Notes**:

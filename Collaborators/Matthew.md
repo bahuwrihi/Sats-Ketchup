@@ -1,7 +1,7 @@
 # Collaborator: Matthew
 
 - **Company**:
-  - Independent Professional
+  -
 
 - **Location**:  
   - Australia
@@ -10,6 +10,7 @@
   - August 2024 – Present (Ongoing)
 
 - **About**:
+  -
 
 - **Role**:  
   - Marketing Advisor 

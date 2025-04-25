@@ -1,7 +1,7 @@
 # Collaborator: John 
 
 - **Company**:
-  - Independent Contractor
+  - independent Professional
 
 - **Location**:  
   - Baltimore, USA

@@ -1,5 +1,4 @@
 # Collaborator: Murad
----
 
 - **Company**:  
   - Independent Professional

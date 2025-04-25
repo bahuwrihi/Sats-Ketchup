@@ -10,7 +10,7 @@
   - May 2024 – Present (Ongoing)
 
 - **About**:
-  - This project began as a personal vision, blending my experience in the food industry with my passion for Bitcoin. The goal is to reflect core Bitcoin principles within a food brand and pioneer a new era of decentralized, community-driven brands. 
+  - This project began as a personal vision, blending my experience in the food industry with my passion for Decentralization. The goal is to set a new standard in the food industry by pioneering a decentralized, community-driven brand.
 
 - **Role**:  
   - Initiator

@@ -1,17 +1,25 @@
-# Collaborator: Matthew W.
+# Collaborator: Matthew
 
-- **Timeframe**: August 2024 – Present (Ongoing)
+- **Company**:
+  - Independent Professional
 
-- **About**: 
+- **Location**:  
+  - Australia
 
-- **Role**: Marketing & General Advisor 
-  
-- **Areas of Work**: 
+- **Timeframe**:  
+  - August 2024 – Present (Ongoing)
+
+- **About**:
+
+- **Role**:  
+  - Marketing Advisor 
+
+- **Areas of Work**:  
   - Marketing Strategies
   - Brand Name Ideation
-  - Overall Concept Support
-    
-- **Contract**: No
-- **Contract Type**: Informal Collaboration
+  - Overall Concept 
 
-- **Note**: 
+- **Contract Type**:  
+  - No formal contract
+
+- **Notes**:

@@ -1,7 +1,7 @@
 # Collaborator: Luca
 
 - **Company**:
-  - Independent
+  - independent Professional
 
 - **Location**:  
   - Vienna, Austria - Victoria, Canada

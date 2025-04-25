@@ -9,33 +9,14 @@
 - **Timeframe**:  
   - January 2025 – Present (Ongoing)
 
-- **Timeframe**:  
-  - January 2025 – Present (Ongoing)
- 
-- **Timeframe**:  
-  - January 2025 – Present (Ongoing)
- 
-- **Timeframe**:  
-  - January 2025 – Present (Ongoing)
-
 - **About**:  
   - 
  
-- **Timeframe**:  
-  - January 2025 – Present (Ongoing)
- 
-- **Timeframe**:  
-  - January 2025 – Present (Ongoing)
-
-
-- **About**:
-   - 
-
 - **Role**:  
-  - Software Developer  
-
+  - Software Developer
+ 
 - **Contract Type**:  
-  - Upwork contract
+  - Upwork Contract
 
-- **Notes**:
-
+- **Notes**:  
+  - 

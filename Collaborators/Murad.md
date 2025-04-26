@@ -4,7 +4,7 @@
   - Independent Professional
 
 - **Location**:  
-  - India
+  - Pakistan
 
 - **Timeframe**:  
   - January 2025 – Present (Ongoing)

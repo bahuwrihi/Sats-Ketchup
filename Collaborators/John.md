@@ -23,6 +23,6 @@
   - Team Collaboration & Meeting Facilitation
 
 - **Contract Type**:  
-  - Freelance Agreement [Contract in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Contract%20Files/Contract%20John.pdf)
+  - Freelance Agreement [Contract Accessible via Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Contract%20Files/Contract%20John.pdf)
 
 - **Notes**:

@@ -5,15 +5,15 @@ This repository is here to openly share and document the Sats brand’s journey 
 
 **Important:** Access to this repository constitutes your explicit acceptance of the terms and conditions outlined in the documents found in the [License Folder](https://github.com/bahuwrihi/Sats-Ketchup/tree/807ae7e54d1e9b974d9f4c50970269568f528bfd/License%20%26%20Guideline/Current). Do not violate these terms.
 
-## Important Onboarding Links
+## Onboarding Links
 
 - **Website:** [www.satsketchup.com](https://www.satsketchup.com) — Leave your email address to receive selected updates!
 - **X/Twitter:** [www.x.com/satsketchup](https://www.x.com/satsketchup) — Send a personal message; DMs are open!
-- **Signal Group:** Send a personal message to Luca (link here) for an introduction.
+- **Signal Group:** Send a personal message to Luca [link here](https://signal.me/#eu/XoLhmOC7eLBRC84JAdbm_o5N7KENB8-GuS4JIeCVZFIYulncwX1Mz46T4Erih0w-)
 
-*Further Onboarding Links (currently not the main focus):*
+*Additional Onboarding Links (Coming Soon)*
 - **Nostr:** `s2232m23203dk2039k20d9k`
-- **Matrix Channel**
+- **Matrix Channel** 
 
 ## Why GitHub?
 

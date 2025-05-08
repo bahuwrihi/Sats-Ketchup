@@ -1,4 +1,4 @@
-# Collaborator: Gunjan
+# Collaborator: Gunjan 
 
 - **Company**:
   - Chowdhary Design Company
@@ -19,7 +19,7 @@
   - Brand Positioning Workshop Facilitation  
 
 - **Contract Type**:  
-  - Donation; [Proof of payment in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/sats-ketchup-core/blob/main/_Files/Contract%20Files/TROXXY%20Wilde%20Hilde.pdf)
+  - Donation; [Payment Receipt – Accessible via Sats Ketchup Core(PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Invoices%20%26%20Receipts/Gunjan_Paypal_Receipt.pdf)
 
 - **Info**:
-  - Gunjan helped Sats with his deep understanding of design and brought extensive experience from all areas of the field. His thoughtful guidance and vision for purposeful, positive change have been invaluable in shaping and positioning the Sats brand in its early stages. [Full Workshop documents in Sats Ketchup Core (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Brand%20Positioning/Sats%20Brand%20Positioning%20Exercise.pdf)
+  - Gunjan used his extensive brand design experience to help Sats. His advice and positive vision were very helpful in building and shaping the Sats brand in its early days. [Full Workshop-document (PDF)](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/main/_Files/Brand%20Positioning/Sats%20Brand%20Positioning%20Exercise.pdf)

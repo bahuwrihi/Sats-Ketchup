@@ -13,7 +13,7 @@ This repository is here to openly share and document the Sats brand’s journey 
 
 *Additional Onboarding Links (Coming Soon)*
 - **Nostr:** `s2232m23203dk2039k20d9k`
-- **Matrix Channel** 
+- **Matrix Channel** @satshq:matrix.org
 
 ## Why GitHub?
 

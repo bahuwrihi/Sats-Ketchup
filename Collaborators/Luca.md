@@ -26,5 +26,4 @@
   - No formal contract
 
 - **Notes**:
-  - Budget is self-funded (Link to Budget Details)
-
+  - Budget is self-funded [Link to Expenses - Accessible via Sats Ketchup Core](https://github.com/bahuwrihi/Sats-Ketchup-Core/blob/9b2026b18dc57a6749ec93fd085762209d94a90e/Expenses/Detailed%20Expenses.md)

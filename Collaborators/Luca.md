@@ -1,7 +1,7 @@
 # Collaborator: Luca
 
 - **Company**:
-  - independent Professional
+  - Independent
 
 - **Location**:  
   - Vienna, Austria - Victoria, Canada
@@ -10,7 +10,7 @@
   - May 2024 – Present (Ongoing)
 
 - **About**:
-  - This project began as a personal vision, blending my experience in the food industry with my passion for Decentralization. The goal is to set a new standard in the food industry by pioneering a decentralized, community-driven brand.
+  - This project began as a personal vision, blending my experience in the food industry with my passion for decentralization.
 
 - **Role**:  
   - Initiator

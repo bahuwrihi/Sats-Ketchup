@@ -7,7 +7,7 @@
 </div>
 
 Sats Ketchup is setting a new standard for transparency and pioneering a decentralized brand ecosystem.
-This repository is here to openly share and document the Sats brand’s journey and developments. Such transparent communication has not been seen before in the food industry, and we understand that taking this step brings added sensitivity around privacy. For this reason, some sections may not yet be fully published or may be redacted. This is a work in progress, and we welcome your questions, feedback, and ideas at any time.
+This repository is here to openly share and document the Sats brand’s journey and developments. Such transparent communication has not been seen before in the food industry, and we understand that taking this step brings added sensitivity around privacy. For this reason, some sections may be redacted. This is a work in progress, and we welcome your questions, feedback, and ideas at any time.
 
 **Important:** Access to this repository constitutes your explicit acceptance of the terms and conditions outlined in the documents found in the [License Folder](https://github.com/bahuwrihi/Sats-Ketchup/tree/807ae7e54d1e9b974d9f4c50970269568f528bfd/License%20%26%20Guideline/Current). Do not violate these terms.
 

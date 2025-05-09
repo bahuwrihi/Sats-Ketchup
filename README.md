@@ -1,5 +1,5 @@
 <p align="center">
-  <strong style="font-size:2em;">Welcome to the Public Repository of Sats-Ketchup</strong><br>
+  <strong style="font-size:1.5em;">Welcome to the Public Repository of Sats-Ketchup</strong><br>
   <img src="_Files/Designs/Logo/Logo_Sats_FullColor_LucaRaimondi.png" alt="Sats Ketchup Logo" width="200"/>
 </p>
 

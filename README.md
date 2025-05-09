@@ -6,8 +6,11 @@
 
 </div>
 
-Sats Ketchup is setting a new standard for transparency and pioneering a decentralized brand ecosystem.
-This repository is here to openly share and document the Sats brand’s journey and developments. Such transparent communication has not been seen before in the food industry, and we understand that taking this step brings added sensitivity around privacy. For this reason, some sections may be redacted. This is a work in progress, and we welcome your questions, feedback, and ideas at any time.
+Sats Ketchup is the first food brand pioneering the decentralized brand economy — transparent, community-driven, and collaborative. We started this repository on GitHub to openly share and document the Sats brand’s journey and developments.
+
+We believe that openness and transparency are key to the value creation of the future. We also recognize that this path is still largely uncharted and will set new precedents for how brands can operate. As such, this is a work in progress, and not everything will be perfect from the start.
+
+We invite you to follow our journey, ask questions, share feedback, and contribute your ideas—whether here on GitHub Discussions or through the links provided below. Together, we invite you to help redefine what a brand can be in the decentralized era.
 
 **Important:** Access to this repository constitutes your explicit acceptance of the terms and conditions outlined in the documents found in the [License Folder](https://github.com/bahuwrihi/Sats-Ketchup/tree/807ae7e54d1e9b974d9f4c50970269568f528bfd/License%20%26%20Guideline/Current). Do not violate these terms.
 

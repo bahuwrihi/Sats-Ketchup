@@ -6,7 +6,6 @@
 
 </div>
 
----
 Sats Ketchup is setting a new standard for transparency and pioneering a decentralized brand ecosystem.
 This repository is here to openly share and document the Sats brand’s journey and developments. Such transparent communication has not been seen before in the food industry, and we understand that taking this step brings added sensitivity around privacy. For this reason, some sections may not yet be fully published or may be redacted. This is a work in progress, and we welcome your questions, feedback, and ideas at any time.
 

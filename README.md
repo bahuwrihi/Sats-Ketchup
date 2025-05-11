@@ -17,6 +17,7 @@ We invite you to follow our journey, ask questions, share feedback, and contribu
 ## Onboarding Links
 
 - **Website:** [www.satsketchup.com(coming soon)](https://www.satsketchup.com) — Leave your email address to receive selected updates!
+- **Nostr:** npub1m9655y076et9cdddrjay04q7g7hvfhle6z03366zy0papftt9g7qj0ydhn
 - **X/Twitter:** [www.x.com/satsketchup](https://www.x.com/satsketchup) — Send a personal message; DMs are open!
 - **Signal Group:** Send a personal message to Luca [link here](https://signal.me/#eu/XoLhmOC7eLBRC84JAdbm_o5N7KENB8-GuS4JIeCVZFIYulncwX1Mz46T4Erih0w-)
 

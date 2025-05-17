@@ -9,6 +9,6 @@ Goals for this recipe include optimal taste, color, texture, sweetness, acidity,
 - 130 g apple cider vinegar (5%)
 - 5 g salt
 - 2.5 g onion powder
-- 1 g allspice (optional)
+- 1 g allspice
 - 25 g cornstarch
 - 2 g vitamin C (ascorbic acid)

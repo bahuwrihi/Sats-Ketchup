@@ -147,4 +147,4 @@ Next steps for Improvement: Cost
 - Bay Leaf: 2 leaves
 - Vitamin C: 2.8g
 - Cornstarch: 25g
-- Vitamin C - ascorbic acid: 2.5g
+- Vitamin C: 2.5g

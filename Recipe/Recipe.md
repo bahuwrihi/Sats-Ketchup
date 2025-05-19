@@ -24,7 +24,7 @@ The goal is to create a ketchup that delivers a familiar, classic taste experien
 - Xanthan Gum: 2g (This is for thickening and stabilizing)
 - Vitamin C - ascorbic acid: 2.6g (Helps prevent oxidation of the apple and tomato purées, keep the color.)
 
-Next Steps for Improvement: Flavor, Color, Texture
+Next Steps for Improvement: Flavor, Color, Texture, Cost
 
 # Version 2 - Q4 2024
 
@@ -43,7 +43,7 @@ Next Steps for Improvement: Flavor, Color, Texture
 - Vitamin C: 2.6g
 - Natural yellow/red food coloring: a few drops of each (adjust to desired color)
 
-Next Steps for Improvement: Flavor, Color, Texture
+Next Steps for Improvement: Flavor, Color, Texture, Cost
 
 # Version 3 - Q4 2024
 
@@ -61,7 +61,7 @@ Next Steps for Improvement: Flavor, Color, Texture
 - Vitamin C: 2.6g
 - Natural yellow/red food coloring: a few drops of each (adjust to desired color)
 
-Next Steps for Improvement: Color, Texture
+Next Steps for Improvement: Color, Texture, Cost
 
 # Version 4 - Q4 2024
 
@@ -131,7 +131,7 @@ Next steps for Improvement: Texture
 - Bay Leaf: 2 leaves
 - Vitamin C: 2.8g
 
-Next steps for Improvement: Cost
+Next steps for Improvement: Texture, Cost
 
 # Version  - Q2 2025
 

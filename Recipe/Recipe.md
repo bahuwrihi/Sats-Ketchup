@@ -135,12 +135,12 @@ Next steps for Improvement: Texture, Cost
 
 # Version  - Q2 2025
 
-- Yellow tomato purée: 450g 
-- Double-concentrated tomato paste: 60g 
-- Cooked carrot purée: 100g 
-- Apple juice concentrate (1:6): 225g 
-- Apple cider vinegar (5%): 130g
-- Salt: 5g
+- Yellow tomato purée: 450g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/450d3feeb4db54f99a9db0eda524ca3d383231ce/Supply%20Chain%20%26%20Compliance/Ingredients/Suppliers.md)
+- Double-concentrated tomato paste: 60g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/450d3feeb4db54f99a9db0eda524ca3d383231ce/Supply%20Chain%20%26%20Compliance/Ingredients/Suppliers.md)
+- Cooked carrot purée: 100g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/450d3feeb4db54f99a9db0eda524ca3d383231ce/Supply%20Chain%20%26%20Compliance/Ingredients/Suppliers.md)
+- Apple juice concentrate (1:6): 225g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/450d3feeb4db54f99a9db0eda524ca3d383231ce/Supply%20Chain%20%26%20Compliance/Ingredients/Suppliers.md)
+- Apple cider vinegar (5%): 130g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/450d3feeb4db54f99a9db0eda524ca3d383231ce/Supply%20Chain%20%26%20Compliance/Ingredients/Suppliers.md)
+- Salt: 5g 
 - Onion powder: 2.5g 
 - Clove: 1g
 - Cinnamon: 3g

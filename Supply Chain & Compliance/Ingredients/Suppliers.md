@@ -1,4 +1,4 @@
-**List of suppliers
+# List of suppliers
 
 - Yellow Tomato Puree: PrimaBio Soc. Coop. a.r.l., 71010 Rignano Garganico FG, Italy [Product Link](https://www.prima-bio.it/shop/giallo/passata-di-pomodoro-giallo-100-bio/)
 - Apple Juice Concentrate: Midsona Deutschland GmbH, 59387 Ascheberg, Germany [Product Link](https://www.bioservice.at/produkte/bio-apfelsaftkonzentrat-apfeldicksaft/)

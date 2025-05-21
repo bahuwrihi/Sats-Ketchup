@@ -6,11 +6,14 @@
 
 </div>
 
-Sats Ketchup is the first food brand pioneering the decentralized brand economy — transparent, community-driven, and collaborative. We started this repository on GitHub to openly share and document the Sats brand’s journey and developments.
 
-We believe that openness and transparency are key to the value creation of the future. We also recognize that this path is still largely uncharted and will set new precedents for how brands can operate. As such, this is a work in progress, and not everything will be perfect from the start.
+Sats Ketchup is the first food brand pioneering a new way of doing business: a decentralised, radically transparent, and collaborative model. We believe that transparency and decentralisation are key to creating lasting value in the future. We invite you to follow our journey, ask questions, share feedback, and contribute your ideas - whether here on GitHub Discussions or through the links provided below. Together, we invite you to help redefine what a brand can be in the decentralized era by being part of key decisions we make.
 
-We invite you to follow our journey, ask questions, share feedback, and contribute your ideas—whether here on GitHub Discussions or through the links provided below. Together, we invite you to help redefine what a brand can be in the decentralized era.
+We believe that without openness and transparency there is no value creation of the future. That is why we think that Github ist the tool of choice to openly share and document the Sats brand’s journey and developments. We are seiting new precedents for how brands operate, by openly sharing our recipes, listing our suppliers, let you be in charge of our design, and so on. As such it is importatn to recognise that this is a work in progress, and not everything will be perfect from the start.
+
+At the last but not least its important to say that although we are driven by our core purpose, we also understand the importance of building a profitable business.
+
+We invite you to follow our journey, ask questions, share feedback, and contribute your ideas—whether here on GitHub Discussions or through the links provided below. 
 
 **Important:** Access to this repository constitutes your explicit acceptance of the terms and conditions outlined in the documents found in the [License Folder](https://github.com/bahuwrihi/Sats-Ketchup/tree/807ae7e54d1e9b974d9f4c50970269568f528bfd/License%20%26%20Guideline/Current). Do not violate these terms.
 

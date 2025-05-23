@@ -10,22 +10,22 @@ We’re driven by a vision of a world where businesses operate on decentralized,
 ## Our Guiding Values
 
 ### 1. Decentralization as Empowerment  
-We believe that a business thrives through decentralization. By embracing decentralized models (both digital and real-world) we empower individuals and communities to take responsibility and drive meaningful change.
+We believe that decentralisation is the future of business. We're pioneering a decentralised brand model that puts the community in control. Everyone has the opportunity to contribute: whether you're a Recipe Innovator developing new products, a Brand Storyteller creating engaging content, or a Community Organizer connecting us all.
 
 ### 2. Collaboration Fuels Success  
-True progress comes from building collaborative ecosystems, not isolated silos. Working together across boundaries fuels innovation, shared success, and a stronger, more resilient network.
+We believe that true progress comes from collaboration, not isolation. By working together openly and breaking down silos, we feed innovation and create shared success that is purposeful.
 
-### 3. Quality, Fairness, and Regenerative Practices  
-High quality and fair practices are non-negotiable. We commit to excellence and integrity, recognizing that our responsibility to future generations requires us to build regenerative systems that sustain people and the planet.
+### 3. Transparency and Openness  
+We believe that transparency is the foundation of trust. We demonstrate this by openly communicating and radically sharing knowledge and processes, including publishing our costs, recipes and all of our suppliers. Only transparency can rebuild the trust lost when brands sacrificed quality and value for fiat money.
 
-### 4. Sound Value Exchange  
-We acknowledge that the current value exchange system has its flaws. To fundamentally change how we work and live together, we seek to create and operate within new forms of monetary and value exchange that cultivates wealth and abundance for all.
+### 4. Quality, Fairness, and Regenerative Practices
+High quality and fair practices are non-negotiable. We commit to quality and integrity, recognising that our responsibility to future generations requires us to build regenerative systems that sustain people and the planet.
 
-### 5. Accessibility and Openness  
-We ensure open access and welcome all who wish to contribute. Sharing knowledge and processes openly builds trust, invites participation, and strengthens our community.
+### 5. Sound Value Exchange  
+We recognise the flaws in our current monetary exchange system. To truly transform how we collaborate and create, we’re committed to building and participating in solutions that reflect the values of sound money, generating wealth and abundance for everyone.
 
 ### 6. Humility, Integrity, and Anti-Corruption  
-We strive to think beyond the ego, staying humble, open-minded, and positive. We remain vigilant against power plays, abuse, and corruption at every level, upholding incorruptibility and integrity as core values.
+We make it our mission to think beyond the ego, stay humble, open-minded, and positive. We have zero tolerance for power plays, abuse, and corruption at any level, because incorruptibility and integrity are our core values..
 
 
 ## Why Ketchup?

@@ -5,20 +5,25 @@
 
 Sats Ketchup is here to prove that the time is ripe for a different kind of brand: a decentralised, fully transparent, and collaborative one.
 
-The idea started to take shape during Bitcoin Pizza Day 2024. Driven by our passion for food and its ability to bring people together, we wanted to find a way to translate this energy into a real-world application. The potential of self-managed organisations inspired us to build SATS as a brand where we're experimenting with new ways of co-creating, co-organising, and co-owning. So, we’ve chosen to openly document every step on GitHub and let the community take over ownership and decision-making in all areas.
+The idea started to take shape during Bitcoin Pizza Day 2024. Driven by our passion for food and its ability to bring people together, we wanted to find a way to translate this energy into a real-world application. The potential of self-managed organisations inspired us to build SATS as a brand where we're experimenting with new ways of co-creating, co-organising, and co-owning. So, we’ve chosen to openly document every step on [GitHub](https://github.com/bahuwrihi/Sats-Ketchup) and let the community take over ownership and decision-making.
 
-Are we a non-profit? No. For us, real impact means building a business that's both profitable and purposeful.
+### Profit
 
-## Why Ketchup?
-We're starting with ketchup because it's a playful choice and a staple that everyone already knows, owns, and loves. There can't be a better way to bring the orange revolution into every household.
+Are we a non-profit? No. We are building a business that's both purposeful and profitable. We share profits fairly, following strict guidelines that we will define together. All funds raised on geyser.fund are [published here](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Pricing%20&%20Compensation%20Framework/GeyserFund%20Fundraising.md).
 
-## Pre-Order Now
+### Why Ketchup?
+
+We're starting with ketchup because it's a playful choice and a staple that everyone already knows, owns, and loves. There is no better way to bring the orange revolution into every household.
+
+### Pre-Order Now
+
 We're now opening pre-orders on our product page, where you can secure a bottle from our first batch and directly support our mission.
 
 Your pre-order will help us finalise manufacturing partnerships in Canada and the EU, and while we're working out the details for chapters in other areas, pre-orders are open worldwide.
 
-## Join Our Team
-But that's not all! We're looking for passionate collaborators to join our team. Whether you're a designer, video creator, marketer, recipe developer, farmer or want to start a local production chapter, we want to hear from you! Check out our open Tasks on GitHub and become part of SATS.
+### Join Our Team
+
+We're looking for passionate collaborators to join our team. Whether you're a designer, video creator, marketer, recipe developer, farmer or want to start a local production chapter, we want to hear from you! Check out our open [Tasks on GitHub](https://github.com/bahuwrihi/Sats-Ketchup/tree/main/Tasks) and become part of SATS.
 
 # Our Guiding Principles
 ## Decentralisation as Empowerment

@@ -1,5 +1,5 @@
+-----
 # Story
-------
 
 ## Building the world’s first food brand for the decentralised era.
 
@@ -39,9 +39,8 @@ We recognise the flaws in our current monetary exchange system. To truly transfo
 ## Humility, Integrity, and Anti-Corruption
 We make it our mission to think beyond the ego, stay humble, open-minded, and positive. We have zero tolerance for power plays, abuse, and corruption at any level, because incorruptibility and integrity are our core values.
 
-
+-----
 # Product
-------
 
 **Sats All-Natural Ketchup is crafted in small batches from sun-ripened yellow Italian tomatoes, sweetened only with apple juice, and balanced with apple cider vinegar for a gentle, high-quality acidity. Our classic blend of herbs and spices delivers the familiar taste you love, but in a revolutionary new color.**
 
@@ -57,8 +56,8 @@ Join us on our journey, ask questions, and help shape the future of food.
 
 [https://linktr.ee/SatsKetchup](https://linktr.ee/SatsKetchup)
 
-# Confirmation Message
 -----
+# Confirmation Message
 
 Thank you, we truly appreciate your support!
 Let us connect personally on Nostr 

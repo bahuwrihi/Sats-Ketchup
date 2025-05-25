@@ -133,17 +133,32 @@ Next steps for Improvement: Texture
 
 Next steps for Improvement: Texture, Cost
 
+# Version 8  - Q2 2025
+
+- Yellow tomato purée: 450g 
+- Double-concentrated tomato paste: 60g 
+- Cooked carrot purée: 100g 
+- Apple juice concentrate (1:6): 225g 
+- Apple cider vinegar (5%): 130g 
+- Salt: 5g 
+- Onion powder: 2.5g 
+- Clove: 1g 
+- Cinnamon: 3g 
+- Bay Leaf: 2 leaves 
+- Vitamin C: 2.8g
+- Cornstarch: 25g 
+
 # Version  - Q2 2025
 
-- Yellow tomato purée: 450g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Double-concentrated tomato paste: 60g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Cooked carrot purée: 100g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Apple juice concentrate (1:6): 225g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Apple cider vinegar (5%): 130g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Salt: 5g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Onion powder: 2.5g 
+- Yellow tomato purée: 475g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Double-concentrated tomato paste: 63g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Cooked carrot purée: 105g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Apple juice concentrate (1:6): 178g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Apple cider vinegar (5%): 137g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Salt: 5.3g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Onion powder: 2.6g
 - Clove: 1g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Cinnamon: 3g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Cinnamon: 3.1g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
 - Bay Leaf: 2 leaves [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
-- Vitamin C: 2.8g
-- Cornstarch: 25g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Vitamin C: 3.0g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
+- Cornstarch: 26.5g [Supplier](https://github.com/bahuwrihi/Sats-Ketchup/blob/main/Supply%20Chain%20&%20Compliance/Ingredients/Suppliers.md)
